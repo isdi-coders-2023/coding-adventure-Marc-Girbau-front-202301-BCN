@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
+import CustomTheme from "./types";
 
-const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle<{ theme: CustomTheme }>`
 
   *, ::after, ::before {
     box-sizing: border-box;
@@ -9,6 +10,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     color: #FFF;
     padding: 1.5rem;
+    margin: 0;
   }
 
   a {
