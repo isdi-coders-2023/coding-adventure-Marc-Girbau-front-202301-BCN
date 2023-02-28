@@ -10,6 +10,7 @@ const ButtonStyled = styled.button`
   font-size: 1.25rem;
   color: ${(props) => props.theme.colors.primary};
   padding: 5px 123px;
+  width: 323px;
 
   :disabled {
     opacity: 0.57;
@@ -17,7 +18,6 @@ const ButtonStyled = styled.button`
 
   @media (min-width: 987px) {
     padding: 14px;
-    width: 320px;
   }
 `;
 

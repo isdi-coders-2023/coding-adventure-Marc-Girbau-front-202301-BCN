@@ -34,11 +34,11 @@ const GlobalStyles = createGlobalStyle`
   button, input {
     font-family: inherit;
     font-size:inherit;
+    border: none;
   }
 
   button{
     background-color: transparent;
-    border: none;
     cursor: pointer;
   }
 `;
