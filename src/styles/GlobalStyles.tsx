@@ -7,7 +7,9 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    color: #FFF;
+    color: #fff;
+    background-color: ${(props) => props.theme.colors.primary};
+    font-family: ${(props) => props.theme.fonts.primary};
     padding: 1.5rem;
     margin: 0;
   }
@@ -29,11 +31,15 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
   }
 
+  button, input {
+    font-family: inherit;
+    font-size:inherit;
+  }
+
   button{
     background-color: transparent;
     border: none;
     cursor: pointer;
-    font-family: inherit;
   }
 `;
 
