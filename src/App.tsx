@@ -1,5 +1,11 @@
+import Form from "./components/Form/Form";
+
 const App = (): JSX.Element => {
-  return <></>;
+  return (
+    <>
+      <Form />
+    </>
+  );
 };
 
 export default App;
