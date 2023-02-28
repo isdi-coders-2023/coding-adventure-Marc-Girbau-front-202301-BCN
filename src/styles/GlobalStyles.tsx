@@ -34,7 +34,6 @@ const GlobalStyles = createGlobalStyle`
     cursor: pointer;
     font-family: inherit;
   }
-
 `;
 
 export default GlobalStyles;

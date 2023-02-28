@@ -5,10 +5,10 @@ const ButtonStyled = styled.button`
   border-radius: 10px;
   cursor: pointer;
 
-  background-color: #cccf18;
-  font-family: "Saira Stencil One";
+  background-color: ${(props) => props.theme.colors.accent};
+  font-family: ${(props) => props.theme.fonts.secondary};
   font-size: 1.25rem;
-  color: #1e1e1e;
+  color: ${(props) => props.theme.colors.primary};
   padding: 5px 123px;
 
   :disabled {
