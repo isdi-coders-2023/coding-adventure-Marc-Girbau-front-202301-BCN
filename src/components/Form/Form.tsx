@@ -14,7 +14,7 @@ const Form = (): JSX.Element => {
         />
       </label>
       <label htmlFor="password" className="form__label">
-        Password{" "}
+        Password
         <input
           className="form__input"
           id="password"
@@ -23,7 +23,7 @@ const Form = (): JSX.Element => {
         />
       </label>
       <label htmlFor="image" className="form__label">
-        Image{" "}
+        Image
         <input
           className="form__input"
           id="image"
