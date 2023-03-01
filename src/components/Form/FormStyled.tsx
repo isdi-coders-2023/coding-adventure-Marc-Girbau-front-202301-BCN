@@ -6,21 +6,28 @@ const FormStyled = styled.form`
   gap: 48px;
 
   .form {
-    &__label {
+    &__text {
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
 
-    &__input:not([type="file"]) {
+    &__field {
       padding: 11px;
       border-radius: 8px;
+      background-color: #e8e8e8;
+      border: 1px solid ${(props) => props.theme.colors.secondary};
+      color: ${(props) => props.theme.colors.primary};
+
+      &::placeholder {
+        color: ${(props) => props.theme.colors.primary};
+      }
     }
   }
 
   @media (min-width: 987px) {
     .form {
-      &__input:not([type="file"]) {
+      &__field {
         padding: 20px 11px;
       }
     }
