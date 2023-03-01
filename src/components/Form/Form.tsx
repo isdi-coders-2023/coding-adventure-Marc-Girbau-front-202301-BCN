@@ -61,7 +61,7 @@ const Form = (): JSX.Element => {
           onChange={onChangeImageHandler}
         />
       </label>
-      <Button isdisabled={hasEmptyFields} text="Sign up" />
+      <Button isDisabled={hasEmptyFields} text="Sign up" />
     </FormStyled>
   );
 };
