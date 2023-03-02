@@ -1,6 +1,13 @@
+import WebFont from "webfontloader";
 import "@fontsource/roboto";
 import "@fontsource/saira-stencil-one";
 import { DefaultTheme } from "styled-components";
+
+WebFont.load({
+  google: {
+    families: ["Faster One"],
+  },
+});
 
 const theme: DefaultTheme = {
   colors: {
@@ -11,6 +18,7 @@ const theme: DefaultTheme = {
   fonts: {
     primary: "Roboto",
     secondary: "Saira Stencil One",
+    titles: "Faster One",
   },
 };
 

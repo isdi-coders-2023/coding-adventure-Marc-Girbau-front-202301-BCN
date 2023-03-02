@@ -10,6 +10,7 @@ declare module "styled-components" {
     fonts: {
       primary: string;
       secondary: string;
+      titles: string;
     };
   }
 }
