@@ -21,7 +21,7 @@ const Form = (): JSX.Element => {
   };
 
   const onChangeImageHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
-    userFormData.append("avatar", event.target.files![0]);
+    userFormData.append("image", event.target.files![0]);
   };
 
   const hasEmptyFields =
